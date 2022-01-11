@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+  background: #ebeef1;
+  height: 100%;
+}
+
+.navbar-brand{
+  transition: .5s;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h2{
+  color: #232b2a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background: #BE93C5; 
+  background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
+  background: linear-gradient(to right, #7BC6CC, #BE93C5);
+}
+
+.about{
+  color: #5bcac8;
+}
+
+.p-3 {
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #0099ff;
+}
+
+.navbar {
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.4);
+}
+
+.card {
+  transition: 0.5s;
+  box-shadow: 1px 1px 7px rgba(71,59,59,0.75);
+}
+
+.card:hover {
+  box-shadow: 1px 1px 13px rgba(71,59,59,0.75);
+}
+
+.btn-primary {
+  background-color: #0d9eff !important;
+  border: none;
+  transition: .3s;
+}
+
+.btn-primary:hover {
+  background-color: #01589281 !important;
+}
+
+.gambar {
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  bottom:40px;
+  position: relative;
+
+}
+
+.angka {
+  font-size:120px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.love {
+  transition: .5s;
+}
+
+.love:hover {
+  color: #f2acb7;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 130px;
+  }
+  
+  .dash {
+    font-size: 14px;
+  }
+
+  .small {
+    font-size: 12px;
+  }
+  
+
+
+}
+
+
+
+/* Desktop */
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .5s;
+    position: relative;
+    left: 800px;
+  }
+
+  .nav-link:hover {
+    color: #9185c7 !important;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  .p-3 {
+    font-size: 15px;
+  }
+
+  
+
+  .gambar {
+    width: 250px;
+    height:250px;
+    bottom:60px;
+  }
+
+  .angka {
+    font-size:200px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+}
