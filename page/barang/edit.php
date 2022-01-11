@@ -144,7 +144,7 @@
                     <input type="number" class="form-control" id="namaFormControlInput1" placeholder="Harga" name="harga_3" title="jangan mahal-mahal" value="<?= $data_detail['harga_3']; ?>" >
                   </div>
                 </div>
-              </div>
+              </div> <div></div>
               
               <div class="d-grid gap-2 d-md-block">
                 <button class="btn btn-primary" type="submit" name="submit"><i class="fa fa-paper-plane"></i> Update</button>
